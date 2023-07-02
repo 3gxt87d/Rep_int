@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 17, 255);
+    background-color: aliceblue;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 30px;
+    }
+ul{
+    list-style: square;
+    line-height: 140%;
+    margin-left: 40px;  
+}
+h2{
+    text-align: center;
+    border-bottom: 6px rgb(0, 17, 255);
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 5px 2px rgb(130, 194, 247);
+    border: 2px  solid rgb(133, 64, 245);
+    border-radius: 20px;
+    padding: 10px;
+}
