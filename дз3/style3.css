@@ -1,0 +1,12 @@
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+div{
+    text-align: left;
+}
+body{
+    color: aliceblue;
+    background-color: rgb(36, 71, 1);
+}
