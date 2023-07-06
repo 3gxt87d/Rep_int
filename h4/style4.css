@@ -1,0 +1,127 @@
+@font-face{
+    font-family: "Divagon";
+    src: url(../Divagon.ttf);
+}
+/* HEADER */
+.header{
+    width: 100%;
+    color: antiquewhite;
+    padding: 30px;
+    background: url(foto1.jpg);
+    font-family: Divagon;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* none HEADER */
+/* MAIN */
+.banner-title, .banner-description{
+    text-align: center;
+    color: antiquewhite;
+    width: 100%;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-family: Divagon;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(foto2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-section{
+    padding: 50px 0;
+}
+
+.cards-title, .cards-description{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.cards-title, .card-title{
+    font-family: Divagon;
+    padding: 15px;
+}
+
+.cards{
+    padding: 25px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25x;
+    width: 250px;
+    height: 350px;
+    background: aliceblue;
+    box-shadow: 0px 2px 40px 0px rgb(11, 133, 240);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+   
+
+}
+
+.card-img{
+    text-align: center;
+}
+
+.card-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.card-button{
+    text-align: center;
+    background: rgba(43, 43, 230, 0.801);
+    padding: 10px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+/* none MAIN */
+/* FOOTER */
+.footer{
+    background: url(foto3.jpg);
+    background-size: cover;
+    padding: 50px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
