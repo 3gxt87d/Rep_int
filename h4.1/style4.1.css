@@ -6,17 +6,9 @@
 .header{
     width: 100%;
     color: antiquewhite;
-    padding: 20px;
     background: url(foto1.jpg);
     font-family: Divagon;
     font-size: 15px;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .header-logo{
@@ -30,13 +22,26 @@
     margin-right: 30px;
 }
 
+.logo-title{
+    font-size: 48px;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .menu-item{
     list-style: none;
+    margin-bottom: 25px;
 }
 
 .menu-link{
@@ -48,11 +53,16 @@
     font-weight: bold;
 }
 
+.menu-link:hover{
+    text-decoration: underline;
+}
+
 .container{
     max-width: 1140px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
 /* none HEADER */
 /* MAIN */
 .banner-title, .banner-description{
@@ -109,13 +119,16 @@
     margin-top: 25x;
     width: 250px;
     height: 350px;
-    background: aliceblue;
-    box-shadow: 0px 2px 40px 0px rgb(11, 133, 240);
+    background: rgba(71, 162, 236, 0.253);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 50px;
    
 
+}
+
+.card:hover{
+    box-shadow: 0px 2px 50px 0px rgb(11, 133, 240);
 }
 
 .card-img{
@@ -125,6 +138,10 @@
 .card-link{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.card-link:hover{
+    text-decoration: underline;
 }
 
 .card-button{
