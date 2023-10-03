@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ry">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Калории</title>
+</head>
+<body>
+    
+    <script>
+         
+        var a = (prompt ('Введите цисло продукта которые вы съели без пробелов и запятых:'+
+                    '\n1 - Картофель (77 ккал);' +
+                    '\n2 - Салат (20 ккал);' +
+                    '\n3 - Мясо (242 ккал);' +
+                    '\n4 - Кукуруза (123 ккал);' +
+                    '\n5 - Каша гречневая (132 ккал);' ,1));
+        if (a <= 5) {       
+            var b = (prompt ('Введите склько грамм продукта вы съели', 100));
+
+            switch (parseInt(a)) {
+                case 1:
+                    alert ('Вы съели ' + (77 * b) / 100 +' калорий.'); 
+                    break;
+                case 2:
+                    alert ('Вы съели ' + (20 * b) / 100 +' калорий.'); 
+                    break;
+                case 3:
+                    alert ('Вы съели ' + (242 * b) / 100 +' калорий.'); 
+                    break;
+                case 4:
+                    alert ('Вы съели ' + (123 * b) / 100 +' калорий.'); 
+                    break;
+                case 5:
+                    alert ('Вы съели ' + (132 * b) / 100 +' калорий.'); 
+                    break;
+                default:
+                    alert ('Нет такого значения')
+
+            }
+        }
+        else{
+            alert('Нет такого значения');
+        }
+            
+    </script>
+
+</body>
+</html>
