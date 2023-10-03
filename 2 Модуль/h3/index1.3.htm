@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function sp() {
+            a = prompt('Сколько вы получаете в рублях?', 45000)
+            if (a<100000) {
+                b = (a*35)/100;
+                v = a-b;
+                alert('Ваша прибыльсоставит - ' + v);
+            }
+            else{
+                b = (a*45)/100;
+                v = a-b;
+                alert('Ваша прибыль составит - ' + v); 
+            }
+        }
+        alert(sp())
+
+    </script> 
+
+</body>
+</html>
